@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cakeheading{
+    margin-top: 0.5rem;
+    font-size: 28px;
+    
+}
+.container{
+    text-align: center;
+    margin-top:1rem;
+}
+
+.cakeContainer{
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+   
+}
+.classimg{
+    width:100px;
+    height: 100px;
+    margin-right: 1rem;
+    animation: all 1s linear;
+    cursor: pointer;
+}
+
+.classimgBorder{
+    border: 2px solid rgb(218, 148, 20);
+    border-radius:8px;
+}
+.cakeInfo{
+    width:300px;
+    display: inline-block;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+    padding: 1.2rem 2rem;
+    box-sizing: border-box;
+}
+.cakePrice{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem auto;
+margin-top: 1rem;
+}
+.pricebg{
+    background-color: rgb(218, 148, 20);
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+.ratebg{
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px rgba(37, 28, 28, 0.7);
+}
